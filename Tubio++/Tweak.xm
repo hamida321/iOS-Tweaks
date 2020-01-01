@@ -9,7 +9,7 @@
 %end
 
 %hook RemoteRequestDelegate
-- (void)initWithReplySocket:(id)arg1 url:(id)arg2 host:(id)arg3 port:(int64_t)arg4 resource:(id)arg5 headers:(id)arg6 andQueue:(id)arg7 isM3U8:(BOOL)arg8 isPremium:(BOOL)arg9 useSD:(BOOL)arg10 {
+- (void)initWithReplySocket:(id)arg1 url:(id)arg2 host:(id)arg3 port:(long long)arg4 resource:(id)arg5 headers:(id)arg6 andQueue:(id)arg7 isM3U8:(BOOL)arg8 isPremium:(BOOL)arg9 useSD:(BOOL)arg10 {
     arg9 = 1;
     %orig;
 }
