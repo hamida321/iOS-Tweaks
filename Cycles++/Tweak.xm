@@ -1,5 +1,5 @@
 %hook ClassOne
-- (BOOL)hasFeature:(int64_t)arg1 {
+- (BOOL)hasFeature:(long long)arg1 {
     return 1;
 }
 - (BOOL)isPremiumMember {
