@@ -6,7 +6,7 @@
 
 %hook ClassOne
 - (id)tappedRemoveAdsButton {
-	return NULL;
+    return NULL;
 }
 %end
 
