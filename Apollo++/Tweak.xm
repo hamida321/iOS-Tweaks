@@ -1,51 +1,51 @@
 %hook ASVideoPlayerNode
-- (bool)shouldAutoPlay {
+- (BOOL)shouldAutoPlay {
     return 0;
 } 
-- (void)setShouldAutoPlay:(bool)arg1 {
+- (void)setShouldAutoPlay:(BOOL)arg1 {
     arg1 = 0;
     %orig;
 }
 %end
 
 %hook ASVideoNode
-- (bool)shouldAutoplay {
+- (BOOL)shouldAutoplay {
     return 0;
 }
-- (void)setShouldAutoplay:(bool)arg1 {
+- (void)setShouldAutoplay:(BOOL)arg1 {
     arg1 = 0;
     %orig;
 }
 %end
 
 %hook MPMoviePlayerControllerNew
-- (bool)shouldAutoplay {
+- (BOOL)shouldAutoplay {
     return 0;
 }
-- (void)setShouldAutoplay:(bool)arg1 {
+- (void)setShouldAutoplay:(BOOL)arg1 {
     arg1 = 0;
     %orig;
 }
 %end
 
 %hook MPMoviePlayerController
-- (bool)shouldAutoplay {
+- (BOOL)shouldAutoplay {
     return 0;
 }
-- (void)setShouldAutoplay:(bool)arg1 {
+- (void)setShouldAutoplay:(BOOL)arg1 {
     arg1 = 0;
     %orig;
 }
 %end
 
 %hook RKLink
-- (bool)isSpoiler {
+- (BOOL)isSpoiler {
     return 0;
 }
-- (bool)isNSFW {
+- (BOOL)isNSFW {
     return 0;
 }
-- (void)setNSFW:(bool)arg1 {
+- (void)setNSFW:(BOOL)arg1 {
     arg1 = 0;
     %orig;
 }
